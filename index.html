@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    h1 {
+        width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        padding: 20px;
+        font-size: 1.3rem;
+        margin: 0;
+        background: white;
+        resize: horizontal;
+    }
+    h1:hover {
+        overflow: visible;
+        white-space: normal;
+        height: auto;
+    }
+    body {
+        height: 100vh;
+        overflow: hidden;
+        display: grid;
+        place-items: center;
+        background: #ccc;
+    }
+</style>
+<h1>
+    This little piggy went to market and this little piggy stayed home.
+</h1>
+</body>
+</html>
